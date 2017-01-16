@@ -27,8 +27,8 @@ library
 
   build-depends:
                     base >= 4.8 && < 5
-                    , papa-bifunctors-export >= 0.2.0
-                    , papa-bifunctors-implement >= 0.2.0
+                    , papa-bifunctors-export >= 0.2.0 && < 1
+                    , papa-bifunctors-implement >= 0.2.0 && < 1
                     
   ghc-options:
                     -Wall
